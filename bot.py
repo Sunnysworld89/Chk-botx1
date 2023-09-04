@@ -99,7 +99,7 @@ def handle_message():
 # Flask route to handle home page
 @app.route('/')
 def home():
-    return 'Welcome to the Empire Checker Bot!'
+    return '<b>☆Welcome to the Empire Checker Bot☆</b>'
 
 # Function to run the bot
 def run_bot():
